@@ -1,0 +1,118 @@
+body {
+  font-family: system-ui, -apple-system, "Hiragino Sans", sans-serif;
+  background: #faf7f2;
+  color: #2b2118;
+}
+
+main {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+.upload-button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  background: #6b4226;
+  color: #fff;
+  cursor: pointer;
+}
+
+.status {
+  min-height: 1.5em;
+  font-size: 0.9rem;
+}
+
+.preview {
+  max-height: 16rem;
+  border-radius: 0.5rem;
+}
+
+.coffee-form {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.25rem;
+}
+
+.field input {
+  padding: 0.5rem;
+  border: 1px solid #d8cbbb;
+  border-radius: 0.375rem;
+  font-size: 1rem;
+}
+
+.field.low-confidence input {
+  border-color: #d9822b;
+  background: #fff6ea;
+}
+
+.site-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+a {
+  color: #6b4226;
+}
+
+/* docs/*.md を表示するページ */
+.docs {
+  max-width: 48rem;
+  line-height: 1.7;
+}
+
+.docs table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.docs th,
+.docs td {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid #d8cbbb;
+  vertical-align: top;
+}
+
+.docs th {
+  background: #f1e9de;
+}
+
+.docs code {
+  padding: 0.1em 0.3em;
+  border-radius: 0.25rem;
+  background: #f1e9de;
+  font-size: 0.9em;
+}
+
+.docs pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background: #2b2118;
+  color: #f5efe6;
+  line-height: 1.5;
+}
+
+.docs pre code {
+  padding: 0;
+  background: none;
+  color: inherit;
+}
+
+.docs .mermaid {
+  overflow-x: auto;
+  margin-block: 1rem;
+}

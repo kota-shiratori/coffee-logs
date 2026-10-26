@@ -1,0 +1,3 @@
+# ローカル開発用。.dev.vars にコピーして値を設定する（.dev.vars は git に含めない）
+AUTH_USER=coffee
+AUTH_PASS=change-me
